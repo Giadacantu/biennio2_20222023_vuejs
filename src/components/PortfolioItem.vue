@@ -1,5 +1,4 @@
 <script setup>
-import { string } from 'zod';
 
 defineProps({
   title: String,
