@@ -3,6 +3,7 @@
 import Header from './components/Header.vue'
 import PortfolioItem from './components/PortfolioItem.vue'
 import SocialLink from './components/SocialLink.vue'
+import Footer from './components/Footer.vue'
 
 
 import contentsData from './assets/contents.json'
@@ -17,6 +18,7 @@ export default {
     Header,
     PortfolioItem,
     SocialLink,
+    Footer,
   },
 };
 
@@ -24,7 +26,7 @@ export default {
 
 <template>
   <main>
-    <Header />
+    <Header></Header>
 
     <div id="works" class="row">
       <div class="col-12 col-md-6" v-for="work in contents.works" :key="work.id">
@@ -47,6 +49,7 @@ export default {
         </li>
       </ul>
     </div>
+    <Footer></Footer>
   </main>
 </template>
 
