@@ -24,27 +24,42 @@
   "works": [
     {
       "id": 1,
-      "title": "Work 1",
-      "description": "This is a sample work",
-      "image_thumbnail": "https://picsum.photos/300/200",
+      "image_thumbnail": "https://source.unsplash.com/random/?environmental sustainability",
       "image_detail": "https://picsum.photos/1024/768",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 2,
-      "title": "Work 2",
-      "description": "This is the second work",
-      "image_thumbnail": "https://picsum.photos/300/200",
+      "image_thumbnail": "https://source.unsplash.com/random/?nature",
       "image_detail": "https://picsum.photos/1024/768",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 3,
-      "title": "Work 3",
-      "description": "third work",
-      "image_thumbnail": "https://picsum.photos/300/200",
+      "image_thumbnail": "https://source.unsplash.com/random/?pollution",
+      "image_detail": "https://picsum.photos/1024/768",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 4,
+      "image_thumbnail": "https://source.unsplash.com/random/?ecological",
+      "image_detail": "https://picsum.photos/1024/768",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 5,
+      "image_thumbnail": "https://source.unsplash.com/random/?environmental changes",
+      "image_detail": "https://picsum.photos/1024/768",
+      "client": "Client 1",
+      "url": "https://www.google.com"
+    },
+    {
+      "id": 6,
+      "image_thumbnail": "https://source.unsplash.com/random/?recycling",
       "image_detail": "https://picsum.photos/1024/768",
       "client": "Client 1",
       "url": "https://www.google.com"

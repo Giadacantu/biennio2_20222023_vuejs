@@ -1,9 +1,14 @@
 <script >
 
 import Header from './components/Header.vue'
-import PortfolioItem from './components/PortfolioItem.vue'
+import Blog from './components/Blog.vue'
 import SocialLink from './components/SocialLink.vue'
 import Footer from './components/Footer.vue'
+import Articoli from './components/Articoli.vue'
+import Subscribe from './components/Subscribe.vue'
+import Latest from './components/Latest.vue'
+import Uomo from './components/Uomo.vue'
+
 
 
 import contentsData from './assets/contents.json'
@@ -16,39 +21,48 @@ export default {
   },
   components: {
     Header,
-    PortfolioItem,
+    Articoli,
+    Blog,
+    Subscribe,
     SocialLink,
+    Latest,
+    Uomo,
     Footer,
   },
 };
+
 
 </script> 
 
 <template>
   <main>
     <Header></Header>
+    <Articoli></Articoli>
 
     <div id="works" class="row">
-      <div class="col-12 col-md-6" v-for="work in contents.works" :key="work.id">
-         <PortfolioItem 
+      <div class="image-item col-12 col-md-4" v-for="work in contents.works" :key="work.id">
+         <Blog
           :title="work.title"
           :abstract="work.description"
           :imageUrl="work.image_thumbnail"
         />
       </div>
     </div>
+  <!-- <div id="social-links" class="row">
+        <ul>
+          <li class="link" v-for="link in contents.social_links" :key="link.id">
+            <SocialLink 
+              :id="link.id"
+              :name="link.name"
+              :url="link.url"
+            />
+          </li>
+        </ul>
+      </div>--> 
 
-    <div id="social-links" class="row">
-      <ul>
-        <li v-for="link in contents.social_links" :key="link.id">
-          <SocialLink 
-            :id="link.id"
-            :name="link.name"
-            :url="link.url"
-          />
-        </li>
-      </ul>
-    </div>
+      <Subscribe></Subscribe>
+      <Latest></Latest>
+    <Uomo></Uomo>
     <Footer></Footer>
   </main>
 </template>
@@ -56,22 +70,22 @@ export default {
 <style scoped>
 header {
   line-height: 1.5;
+  margin-left: 0px;
+  margin-right: 0px;
 }
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+.container{
+  max-width: calc(1440 - 130px);
+  padding: 0 20px;
+   width: 100%;
+   margin:auto; 
 }
-
-@media (min-width: 1024px) {
+#works{
+  margin: 50px;
+}
+/*@media (min-width: 1024px) {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
   }
 
   header .wrapper {
@@ -80,4 +94,5 @@ header {
     flex-wrap: wrap;
   }
 }
+*/
 </style>

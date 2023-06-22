@@ -1,0 +1,29 @@
+@import './base.css';
+@import 'bootstrap';
+
+body{
+  background-color: white;
+  display: flex;
+  align-items: center;
+
+}
+
+#app {
+  max-width: 1440px;
+  font-weight: normal;
+}
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(0, 0%, 100%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+}
