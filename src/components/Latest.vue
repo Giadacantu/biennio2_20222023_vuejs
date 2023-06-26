@@ -114,18 +114,27 @@ img {
     .latest .latest-content {
         max-width: 100%;
         transform: translateY(0px);
-
     }
+
 }
 
 @media (max-width: 600px) {
     .latest-wrapper {
         grid-template-columns: 1fr;
     }
-
     .latest .latest-content {
-        padding: 10px 0px;
-
+        padding: 20px 20px;
+    }
+    .latest .img-container{
+     padding: 20px 20px;
+    }
+    .latest-header h3{
+        padding-left: 20px;
+        margin-top: 50px;
+    }
+      .latest-header a{
+        padding-right: 20px;
+        margin-top: 30px;
     }
 }
 </style>

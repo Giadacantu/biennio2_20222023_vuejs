@@ -141,10 +141,11 @@
 }
 
 .img-container h3 {
-    font-weight: 600;
+    font-weight: bold;
+    font-style: oblique;
     font-size: 22px;
     line-height: 25px;
-    color: black;
+    color:#008e61;
     margin-top: 5px;
 }
 
@@ -179,11 +180,12 @@
 
 .servizi .details {
     margin-left: 10px;
+    margin-top: 40px;
 }
 
 .details h6 {
     font-weight: bolder;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 13px;
     font-family: Helvetica;
 
@@ -223,7 +225,7 @@
     }
 
     .img-content h3 {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 20px;
     }
 

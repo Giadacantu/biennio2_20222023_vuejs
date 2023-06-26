@@ -165,7 +165,7 @@ nav .nav-inner {
   margin: 0px 20px;
   font-family: Helvetica;
   text-decoration: none;
-  font-style: normal;
+  font-style: bold;
   font-size: 15px;
   font-weight: 400;
   color: white;
@@ -240,7 +240,7 @@ li {
   margin: 0px 20px;
   font-family: Helvetica;
   text-decoration: none;
-  font-style: normal;
+  font-style: bold;
   font-size: 15px;
   font-weight: 400;
   color: rgb(255, 255, 255);
@@ -316,27 +316,6 @@ nav {
   transform: translateX(0);
   z-index: -1;
 }
-
-/* @media (max-width: 768px) {
-    .nav-inner {
-      flex-direction: column;
-    }
-  
-    .link {
-      justify-content: center;
-      margin-top: 10px;
-    }
-  
-    .icon {
-      justify-content: center;
-      margin-top: 10px;
-    }
-    .icon span {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-  } */
 
 
 @media screen and (max-width: 900px) {
