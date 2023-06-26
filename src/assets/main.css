@@ -1,18 +1,23 @@
 @import './base.css';
 @import 'bootstrap';
 
-body{
+body {
   background-color: white;
-  display: flex;
+  /* display: flex; */
   align-items: center;
 
 }
 
 #app {
-  max-width: 1440px;
+  /* max-width: 1440px; */
+  width: 100%;
   font-weight: normal;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
 
 @media (hover: hover) {
   a:hover {
@@ -22,7 +27,7 @@ body{
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
+    /* display: flex; */
     place-items: center;
   }
 

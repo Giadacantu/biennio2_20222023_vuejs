@@ -8,6 +8,9 @@ import Articoli from './components/Articoli.vue'
 import Subscribe from './components/Subscribe.vue'
 import Latest from './components/Latest.vue'
 import Uomo from './components/Uomo.vue'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+
+
 
 
 
@@ -17,6 +20,7 @@ export default {
   data() {
     return {
       contents: contentsData,
+
     };
   },
   components: {
@@ -28,7 +32,9 @@ export default {
     Latest,
     Uomo,
     Footer,
+    FontAwesomeIcon,
   },
+
 };
 
 
@@ -36,34 +42,41 @@ export default {
 
 <template>
   <main>
-    <Header></Header>
-    <Articoli></Articoli>
 
-    <div id="works" class="row">
-      <div class="image-item col-12 col-md-4" v-for="work in contents.works" :key="work.id">
-         <Blog
-          :title="work.title"
-          :abstract="work.description"
-          :imageUrl="work.image_thumbnail"
-        />
+    <Header></Header>
+
+
+
+    <Articoli></Articoli>
+    <div class="container">
+      <div id="works" class="row">
+        <div class="image-item col-12 col-md-4" v-for="work in contents.works" :key="work.id">
+          <Blog :title="work.title" :abstract="work.description" :imageUrl="work.image_thumbnail" />
+        </div>
+
+
+        <!-- <div id="social-links" class="row">
+            <ul>
+              <li class="link" v-for="link in contents.social_links" :key="link.id">
+                <SocialLink 
+                  :id="link.id"
+                  :name="link.name"
+                  :url="link.url"
+                />
+              </li>
+            </ul>
+          </div>-->
+
+
+
+
       </div>
     </div>
-  <!-- <div id="social-links" class="row">
-        <ul>
-          <li class="link" v-for="link in contents.social_links" :key="link.id">
-            <SocialLink 
-              :id="link.id"
-              :name="link.name"
-              :url="link.url"
-            />
-          </li>
-        </ul>
-      </div>--> 
-
-      <Subscribe></Subscribe>
-      <Latest></Latest>
+    <Subscribe></Subscribe>
+    <Latest></Latest>
     <Uomo></Uomo>
     <Footer></Footer>
+
   </main>
 </template>
 
@@ -73,15 +86,26 @@ header {
   margin-left: 0px;
   margin-right: 0px;
 }
-.container{
-  max-width: calc(1440 - 130px);
-  padding: 0 20px;
-   width: 100%;
-   margin:auto; 
+
+
+.container {
+  /* max-width: calc(1440 - 130px); */
+  /* padding: 0 20px; */
+  width: 100%;
+  margin: auto;
 }
-#works{
+
+#works {
   margin: 50px;
 }
+
+
+
+
+.open {
+  transform: translateX(300px);
+}
+
 /*@media (min-width: 1024px) {
   header {
     display: flex;

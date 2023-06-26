@@ -24,42 +24,42 @@
   "works": [
     {
       "id": 1,
-      "image_thumbnail": "https://source.unsplash.com/random/?environmental sustainability",
+      "image_thumbnail": "https://source.unsplash.com/2000x3500/?sustainability",
       "image_detail": "https://picsum.photos/1024/768",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 2,
-      "image_thumbnail": "https://source.unsplash.com/random/?nature",
+      "image_thumbnail": "https://source.unsplash.com/2000x3500/?nature",
       "image_detail": "https://picsum.photos/1024/768",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 3,
-      "image_thumbnail": "https://source.unsplash.com/random/?pollution",
+      "image_thumbnail": "https://source.unsplash.com/2000x3500/?pollution",
       "image_detail": "https://picsum.photos/1024/768",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 4,
-      "image_thumbnail": "https://source.unsplash.com/random/?ecological",
+      "image_thumbnail": "https://source.unsplash.com/2000x3500/?ecological",
       "image_detail": "https://picsum.photos/1024/768",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 5,
-      "image_thumbnail": "https://source.unsplash.com/random/?environmental changes",
+      "image_thumbnail": "https://source.unsplash.com/2000x3500/?environmental-changes",
       "image_detail": "https://picsum.photos/1024/768",
       "client": "Client 1",
       "url": "https://www.google.com"
     },
     {
       "id": 6,
-      "image_thumbnail": "https://source.unsplash.com/random/?recycling",
+      "image_thumbnail": "https://source.unsplash.com/2000x3500/?recycling",
       "image_detail": "https://picsum.photos/1024/768",
       "client": "Client 1",
       "url": "https://www.google.com"
