@@ -165,6 +165,9 @@ h5 {
         font-size: 11px;
 
     }
+    .footer-bottom{
+    padding-right: 45px;
+    }
 }
 </style>
 

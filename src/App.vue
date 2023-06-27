@@ -89,8 +89,6 @@ header {
 
 
 .container {
-  /* max-width: calc(1440 - 130px); */
-  /* padding: 0 20px; */
   width: 100%;
   margin: auto;
 }
@@ -106,17 +104,4 @@ header {
   transform: translateX(300px);
 }
 
-/*@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-*/
 </style>

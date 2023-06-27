@@ -50,7 +50,7 @@ export default {
 
 <template>
   <header>
-    <!--  delete  && !mobile if transparency of main navbar also in mobile version -->
+
     <nav :class="{ 'scrolled-nav-main': scrolledNav && !mobile }">
       <div class="nav-inner" id="myTopnav">
         <div class="logo">

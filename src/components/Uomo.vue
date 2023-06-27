@@ -16,7 +16,6 @@
 <style scoped>
 .video-div {
     display: flex;
-    /* margin-bottom: 100px; */
     justify-content: center;
     align-items: center;
 }

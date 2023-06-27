@@ -75,7 +75,6 @@ section {
 
 .subscribe-wrapper h3 span {
     font-size: 30px;
-    /* color: #A8BBB7; */
     color: #62cfa6;
     font-family: Helvetica;
     font-weight: bold;
@@ -111,40 +110,6 @@ section {
 .subscribe-wrapper .btn:hover {
     background-color: #A8BBB7;
 }
-
-/* @media (max-widht: 600px){
-    .subscribe-wrapper .img-container{
-    padding: 80px 20px;
-    }
-    section{
-        padding: 60px 20px;
-    }
-}
-@media (max-widht: 400px){
-    .subscribe-wrapper h3{
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .subscribe-wrapper input, .subscribe-wrapper .btn{
-        height: 40px;
-    }
-} 
-@media (max-width: 767px) {
-  .subscribe-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .subscribe-wrapper h3 {
-    text-align: center;
-  }
-
-  .img-container.grafica {
-    display: none;
-  }
-} */
 
 @media (max-width: 969px) {
     .subscribe-wrapper .img-container {

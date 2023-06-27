@@ -158,7 +158,6 @@
 .category-articoli .top>div {
     flex: 0 0 calc(50% - 20px);
     max-width: calc(50% - 20px);
-    ;
     width: 100%;
 }
 
@@ -166,7 +165,6 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-    /* margin-left: 50px; */
 }
 
 .extra>div {
@@ -217,7 +215,6 @@
     .category-articoli .top>div {
         flex: 0 0 100%;
         max-width: 49%;
-        /* margin: 20px;     */
     }
 
     .category-articoli .top {
